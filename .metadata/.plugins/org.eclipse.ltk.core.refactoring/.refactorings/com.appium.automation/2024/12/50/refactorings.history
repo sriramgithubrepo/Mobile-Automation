@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;README.md&apos; to &apos;com.appium.automation&apos;" description="Move &apos;README.md&apos; to &apos;com.appium.automation&apos;" destination="/com.appium.automation" element1="APPIUM/README.md" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1733770022311" updateReferences="true"/>
+</session>
