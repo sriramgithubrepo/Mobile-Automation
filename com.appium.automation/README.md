@@ -69,4 +69,4 @@ Open powershell and entered command adb shell dumpsys window | grep -E 'mCurrent
 
 4) Checkout/clone the project and build the maven dependencies 
 
-5) Right click on Testng.xml file and run as TestNG Suite or run mvn test/mvn clean test (the application turn up time varies and at times translation does not happen properly, hence try more than once in case of failure)
+5) Right click on Testng.xml file and run as TestNG Suite or run mvn test/mvn clean test (the application turn up time varies and at times translation does not happen properly(click okay once manually), hence try more than once in case of failure)
