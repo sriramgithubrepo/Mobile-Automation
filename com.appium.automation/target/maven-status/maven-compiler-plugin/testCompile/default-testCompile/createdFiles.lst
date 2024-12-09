@@ -1,0 +1,6 @@
+pages\BaseClass.class
+pages\LoginPage.class
+pages\HomePage.class
+tests\LoginAndAddToCart.class
+utils\ConfigReader.class
+pages\PreLogin.class

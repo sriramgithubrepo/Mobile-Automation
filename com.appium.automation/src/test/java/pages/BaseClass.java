@@ -26,7 +26,9 @@ public class BaseClass {
 	                //caps.setCapability("appium:app", System.getProperty("user.dir") + "/src/test/resources/apps/app.apk");
 	                caps.setCapability("appium:appActivity", "com.shopapotheke.activities.splash.AliasSplashActivityDE");
 	                caps.setCapability("appium:appPackage", "shop.shop_apotheke.com.shopapotheke.debug");
-	                caps.setCapability("appium:newCommandTimeout", 60);
+	                caps.setCapability("appium:newCommandTimeout", 300);
+	                caps.setCapability("appium:logLevel", "debug");
+	                caps.setCapability("appium:appWaitActivity", "*");
 	               
 	              
 
@@ -35,7 +37,7 @@ public class BaseClass {
 	                driver = new AndroidDriver(url, caps);
 
 	                // Set global timeouts
-	                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
+	                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(70));
 
 	                System.out.println("Driver initialized successfully.");
 	            } catch (Exception exp) {

@@ -34,7 +34,7 @@ public class LoginAndAddToCart extends BaseClass{
 	}
 	public void searchAndAddToCart() {
 		Assert.assertTrue(homePage.getWelcomeText().contains("Hello"),"Welcome text does not match");
-		homePage.searchForProduct("Vitamin b12");
+		homePage.searchForProduct(ConfigReader.getProperty("product"));
 		Assert.assertEquals(homePage.isProductSuggested(), true);
 		homePage.chooseProduct();
 		homePage.addToCart();

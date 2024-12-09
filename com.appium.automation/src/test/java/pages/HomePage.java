@@ -17,7 +17,7 @@ import org.openqa.selenium.By;
 		    private static final By SEARCH_ICON = By.xpath("//android.widget.Button[@resource-id='search']");
 		    private static final By SEARCH_FIELD = By.xpath("//android.widget.EditText[@resource-id='et_search']");
 		    private static final By PRODUCT_SUGGESTIONS = By.xpath("//android.widget.TextView[@text='Product suggestions']");
-		    private static final By CHOSEN_PRODUCT = By.xpath("//android.widget.TextView[@resource-id='tv_list_item_text' and @text='GLYCOWOHL Vitamin B12 1000 µg hochdos.vegan Kaps.']");
+		    private static final By CHOSEN_PRODUCT = By.xpath("//android.widget.TextView[@resource-id=\"tv_list_item_text\"]");
 		    private static final By ADD_TO_CART_BUTTON = By.xpath("//android.widget.TextView[@text='Add to cart']");
 		    private static final By PRODUCT_ADDED_TO_CART = By.xpath("//android.widget.TextView[@resource-id='tv_product_in_cart_title']");
 		    private static final By REMOVE_PRODUCT_BUTTON = By.xpath("//android.view.View[@resource-id='cl_cart']/android.widget.Button[1]");
